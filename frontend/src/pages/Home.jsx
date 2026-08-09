@@ -188,8 +188,7 @@ if (transcript.toLowerCase().includes(userData.assistantName.toLowerCase())) {
    }
  };
 
-  const greeting = new SpeechSynthesisUtterance(`hello $
-  {userData.name},What can i help you with?`);
+  const greeting = new SpeechSynthesisUtterance(`hello ${userData.assistantName},What can i help you with?`);
   greeting.lang = 'hi-IN';
   window.speechSynthesis.speak(greeting);
  
