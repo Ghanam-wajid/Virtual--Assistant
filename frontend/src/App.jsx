@@ -5,7 +5,7 @@ import { BrowserRouter, Route, Routes, Navigate } from 'react-router-dom'
 import Customize from './pages/Customize'
 import { userDataContext } from './context/UserContext'
 import { useContext } from 'react'
-import Home from './pages/home'
+import Home from './pages/Home'
 import Customize2 from './pages/Customize2'
 
 function App () {
