@@ -222,7 +222,7 @@ return ()=>{
 
         <div className='w-full h-[400px] gap-[20px] overflow-y-auto flex flex-col'>
 
-          {userData.history?.map((his, index)=>(
+          {userData?.history?.map((his, index)=>(
     <span key={index} className='text-gray-200 text-[18px] truncate'>{his}</span>
       ))}
 
